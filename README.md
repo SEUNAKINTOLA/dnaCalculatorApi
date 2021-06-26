@@ -19,19 +19,19 @@ Each nucleotide consists of three components:
 ●	a five-carbon sugar molecule (deoxyribose in the case of DNA)
 ●	a phosphate molecule / backbone
 
--Gene
+- Gene
 The gene is the basic physical and functional unit of heredity. It consists of a specific sequence of nucleotides at a given position. The familiar Needle in Haystacks is analogous to Genes in DNA. A smallest sample of DNA is given below:
 dna = "GHJATGJTAAJFTGAJIDTCATGJKDFHYLOPTAAJATGTAADFD"
 
--Codon
+- Codon
 To extract information from a DNA, we use codons.  A codon is a sequence of three DNA or RNA nucleotides that corresponds with a specific amino acid or stop signal during protein synthesis. We have start and stop codons as shown below:
 Start Codon:
-    -ATG - sequence of Adenine, Thymine and Guanine
+-   ATG - sequence of Adenine, Thymine and Guanine
 
 Stop Codons:
-    -TAA - sequence of Thymine, Adenine, and Adenine.
-    -TAG - sequence of Thymine, Adenine and Guanine.
-    -TGA - sequence of Thymine, Guanine and Adenine.
+-   TAA - sequence of Thymine, Adenine, and Adenine.
+-   TAG - sequence of Thymine, Adenine and Guanine.
+-   TGA - sequence of Thymine, Guanine and Adenine.
 
 
 
