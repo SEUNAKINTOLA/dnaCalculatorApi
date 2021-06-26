@@ -1,12 +1,12 @@
 #API DOCUMENTATION
-1. Git clone this repo
+1. Git clone this repo into fbis folder
 2. To run locally, ensure your wamp/xamp is running
 3. Make use of postman (or any other api testing tool) to:
-- get call http://127.0.0.1/fbis/api_agency/fbis_connect.php
+- get call http://127.0.0.1/fbis/fbis_connect.php
 - add Token 39109f7df56e1051c399e685066bb852
 - send dna and process as extractvalidgenes
 
-Sample call http://127.0.0.1/fbis/api_agency/fbis_connect.php?dna=GHJATGJTAAJFTGAJIDTCATGJKDFHYLOPTAAJATGTAADFD&process=extractvalidgenes
+Sample call http://127.0.0.1/fbis/fbis_connect.php?dna=GHJATGJTAAJFTGAJIDTCATGJKDFHYLOPTAAJATGTAADFD&process=extractvalidgenes
 
 
 
