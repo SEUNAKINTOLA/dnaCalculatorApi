@@ -1,12 +1,22 @@
 #API DOCUMENTATION
 1. Git clone this repo into fbis folder
 2. To run locally, ensure your wamp/xamp is running
-3. Make use of postman (or any other api testing tool) to:
-- get call http://127.0.0.1/fbis/fbis_connect.php
+3. Make use of postman (or any other api testing tool) to test any of the following end points:
+
+i. ##extractvalidgenes
+- send get request to  http://127.0.0.1/fbis/fbis_connect.php
 - add Token 39109f7df56e1051c399e685066bb852
 - send dna and process as extractvalidgenes
 
 Sample call http://127.0.0.1/fbis/fbis_connect.php?dna=GHJATGJTAAJFTGAJIDTCATGJKDFHYLOPTAAJATGTAADFD&process=extractvalidgenes
+
+
+i. ##calculatecgr
+- send get request to http://127.0.0.1/fbis/fbis_connect.php
+- add Token 39109f7df56e1051c399e685066bb852
+- send valid gene and process as calculatecgr
+
+Sample call http://127.0.0.1/fbis/fbis_connect.php?gene=ATGJTAAJFTGA&process=calculatecgr
 
 
 
@@ -25,10 +35,10 @@ dna = "GHJATGJTAAJFTGAJIDTCATGJKDFHYLOPTAAJATGTAADFD"
 
 - Codon
 To extract information from a DNA, we use codons.  A codon is a sequence of three DNA or RNA nucleotides that corresponds with a specific amino acid or stop signal during protein synthesis. We have start and stop codons as shown below:
-Start Codon:
+- Start Codon:
 -   ATG - sequence of Adenine, Thymine and Guanine
 
-Stop Codons:
+- Stop Codons:
 -   TAA - sequence of Thymine, Adenine, and Adenine.
 -   TAG - sequence of Thymine, Adenine and Guanine.
 -   TGA - sequence of Thymine, Guanine and Adenine.
