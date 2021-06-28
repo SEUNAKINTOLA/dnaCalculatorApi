@@ -4,6 +4,7 @@
 3. Make use of postman (or any other api testing tool) to test any of the following end points:
 
 ##extractvalidgenes
+(●	Given a DNA sequence, extract all the valid genes)
 - send get request to  http://127.0.0.1/fbis/fbis_connect.php
 - add Token 39109f7df56e1051c399e685066bb852
 - send dna and process as extractvalidgenes
@@ -12,6 +13,7 @@ Sample call http://127.0.0.1/fbis/fbis_connect.php?dna=GHJATGJTAAJFTGAJIDTCATGJK
 
 
 ##calculatecgr
+(●	Given a gene, calculate the CG ratio)
 - send get request to http://127.0.0.1/fbis/fbis_connect.php
 - add Token 39109f7df56e1051c399e685066bb852
 - send valid gene and process as calculatecgr
