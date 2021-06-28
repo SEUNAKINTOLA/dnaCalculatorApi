@@ -10,7 +10,23 @@
 - send dna and process as extractvalidgenes
 
 Sample call http://127.0.0.1/fbis/fbis_connect.php?dna=GHJATGJTAAJFTGAJIDTCATGJKDFHYLOPTAAJATGTAADFD&process=extractvalidgenes
+sample response:
 
+{
+    "result": {
+        "validgenes": {
+            "1": {
+                "gene": "ATGJTAAJFTGA",
+                "cgratio": "2/12"
+            },
+            "2": {
+                "gene": "ATGJKDFHYLOPTAA",
+                "cgratio": "1/15"
+            }
+        },
+        "genecount": 2
+    }
+}
 
 ##calculatecgr
 (●	Given a gene, calculate the CG ratio)
@@ -19,6 +35,16 @@ Sample call http://127.0.0.1/fbis/fbis_connect.php?dna=GHJATGJTAAJFTGAJIDTCATGJK
 - send valid gene and process as calculatecgr
 
 Sample call http://127.0.0.1/fbis/fbis_connect.php?gene=ATGJTAAJFTGA&process=calculatecgr
+sample response:
+{
+    "result": {
+        "gene": "ATGJTAAJFTGA",
+        "cgratio": "2/12"
+    }
+}
+
+
+
 
 
 
